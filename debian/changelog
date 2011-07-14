@@ -1,0 +1,61 @@
+blankon-panel (0.1.8) pattimura; urgency=low
+
+  * New Upstream
+
+ -- Aji Kisworo Mukti <adzy@di.blankon.in>  Thu, 14 Jul 2011 17:04:58 +0700
+
+blankon-panel (0.1.7) pattimura; urgency=low
+
+  * Added blankon-panel.desktop
+  * install 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 13 Jul 2011 00:17:31 +0700
+
+blankon-panel (0.1.6) pattimura; urgency=low
+
+  * debian/control 
+    - added ${shlibs:Depends}, 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 12 Jul 2011 06:46:26 +0700
+
+blankon-panel (0.1.5) pattimura; urgency=low
+
+  * New Upstream authors
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 11 Jul 2011 21:59:58 +0700
+
+blankon-panel (0.1.4) pattimura; urgency=low
+
+  * New Updates from Author
+    - CHanges: Draw arrow instead of distribution logo on the second column 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 06 Jul 2011 16:42:25 +0700
+
+blankon-panel (0.1.3) pattimura; urgency=low
+
+  * New Updates from Author
+    - CHanges: Replaced menu interaction with sliding columns
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 06 Jul 2011 05:46:10 +0700
+
+blankon-panel (0.1.2) pattimura; urgency=low
+
+  * install 
+    - blankon-panel   /usr/bin/
+    - blankon-panel.css /usr/share/blankon-panel/
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 29 Jun 2011 20:55:50 +0700
+
+blankon-panel (0.1.1) pattimura; urgency=low
+
+  * New upstream update
+  
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 24 Jun 2011 05:39:38 +0700
+
+blankon-panel (0.1) pattimura; urgency=low
+
+  * Initial release
+  
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 18 Apr 2011 21:28:19 +0700
+
+
