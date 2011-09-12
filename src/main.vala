@@ -4,6 +4,8 @@ interface XDGDBus : Object {
     public abstract uint32 request_name (string name, uint32 flags) throws IOError;
 }
 
+public string LAUNCHER;
+
 int main (string[] args) {
 
     Intl.bindtextdomain( Config.GETTEXT_PACKAGE, Config.LOCALEDIR );
@@ -35,6 +37,22 @@ int main (string[] args) {
     } catch (Error e) {
         stdout.printf ("Unable to claim Panel to gnome-session");
     }
+
+	string launcher = args[1];
+
+	if ( launcher ) {
+		switch ( launcher ) {
+			case "--raipad":
+				LAUNCHER = "raipad";
+				break;
+			case "--matahati":
+				LAUNCHER = "matahati";
+				break;
+			default:
+				stdout.printf ("Argument not supported.");
+				return 1;
+		}
+	}
 
     Gtk.main ();
     return 0;
