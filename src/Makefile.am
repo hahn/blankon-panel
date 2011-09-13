@@ -29,10 +29,11 @@ blankon_panel_SOURCES = panel-item.vala \
     panel-hotkey.vala \
     panel-session-manager.vala \
 	raipad/raipad.vala \
+	raipad/AppItem.vala \
 	raipad/CompositedWindow.vala \
 	raipad/Entries.vala \
 	raipad/PageIndicator.vala \
-	utilities.vala \
+	raipad/utilities.vala \
 	$(NULL)
 
 blankon_panel_VALAFLAGS = \
