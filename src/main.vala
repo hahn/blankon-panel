@@ -40,7 +40,7 @@ int main (string[] args) {
 
 	string launcher = args[1];
 
-	if ( launcher ) {
+	if ( launcher != null ) {
 		switch ( launcher ) {
 			case "--raipad":
 				LAUNCHER = "raipad";
