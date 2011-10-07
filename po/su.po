@@ -47,7 +47,7 @@ msgstr "Aplikasi"
 
 #:../src/panel-places.vala:54
 msgid "Home"
-msgstr "Beranda"
+msgstr "Tepas"
 
 #:../src/panel-places.vala:98../src/panel-places.vala:171
 #, c-format
